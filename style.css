@@ -53,3 +53,18 @@ footer {
     padding: 10px;
 }
 
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  background: #b1125d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.product-box {
+  padding: 15px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}

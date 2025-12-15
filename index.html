@@ -1,64 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>InduFashion</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>InduFashion</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
+  <!-- HEADER -->
+  <header class="header">
     <h1>InduFashion</h1>
     <p>Traditional & Modern Fashion</p>
-</header>
+  </header>
 
-<nav>
-    <a href="#">Home</a>
-    <a href="#">Products</a>
-    <a href="#">About</a>
-    <a href="#">Contact</a>
-</nav>
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <a href="#home">Home</a>
+    <a href="#products">Products</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-<section class="hero">
+  <!-- HOME -->
+  <section id="home" class="home">
     <h2>New Collection 2025</h2>
-    <p>Stylish • Elegant • Affordable</p>
-    <button>Shop Now</button>
-</section>
+    <p>Stylish · Elegant · Affordable</p>
+    <button class="shop-btn">Shop Now</button>
+  </section>
 
-<section id="products">
-  <h2>Our Products</h2>
+  <!-- PRODUCTS -->
+  <section id="products" class="products">
+    <h2>Our Products</h2>
 
-  <button onclick="showSarees()">Sarees</button>
-  <button onclick="showKurtis()">Kurtis</button>
-  <button onclick="showLehengas()">Lehengas</button>
-</section>
-<section id="sarees" style="display:none;">
-  <h2>Saree Collection</h2>
+    <div class="product-buttons">
+      <button>Sarees</button>
+      <button>Kurtis</button>
+      <button>Lehengas</button>
+    </div>
+  </section>
 
-  <div class="product-box">Silk Saree</div>
-  <div class="product-box">Cotton Saree</div>
-  <div class="product-box">Designer Saree</div>
-</section>
-    
+  <!-- FOOTER -->
+  <footer class="footer">
+    © 2025 InduFashion | All Rights Reserved
+  </footer>
 
-<footer>
-    <p>© 2025 InduFashion | All Rights Reserved</p>
-</footer>
-
-    <script>
-function showSarees() {
-  document.getElementById("sarees").style.display = "block";
-  document.getElementById("sarees").scrollIntoView({ behavior: "smooth" });
-}
-
-function showKurtis() {
-  alert("Kurtis section baad mein banayenge");
-}
-
-function showLehengas() {
-  alert("Lehengas section baad mein banayenge");
-}
-    </script>
-    
 </body>
 </html>
 

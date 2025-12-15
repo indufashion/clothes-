@@ -53,3 +53,15 @@ footer {
     padding: 10px;
 }
 
+.card a {
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+.product-item {
+  display: block;
+  text-decoration: none;
+  color: #000;
+  background: #fff;
+  border-radius: 8px;
+}

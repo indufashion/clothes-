@@ -31,12 +31,34 @@
   <button onclick="showKurtis()">Kurtis</button>
   <button onclick="showLehengas()">Lehengas</button>
 </section>
+<section id="sarees" style="display:none;">
+  <h2>Saree Collection</h2>
 
+  <div class="product-box">Silk Saree</div>
+  <div class="product-box">Cotton Saree</div>
+  <div class="product-box">Designer Saree</div>
+</section>
+    
 
 <footer>
     <p>© 2025 InduFashion | All Rights Reserved</p>
 </footer>
 
+    <script>
+function showSarees() {
+  document.getElementById("sarees").style.display = "block";
+  document.getElementById("sarees").scrollIntoView({ behavior: "smooth" });
+}
+
+function showKurtis() {
+  alert("Kurtis section baad mein banayenge");
+}
+
+function showLehengas() {
+  alert("Lehengas section baad mein banayenge");
+}
+    </script>
+    
 </body>
 </html>
 
